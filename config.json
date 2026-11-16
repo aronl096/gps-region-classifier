@@ -1,0 +1,11 @@
+{
+  "regions": {
+    "A": {"shape": "circle", "center": [0, 0], "radius": 2},
+    "B": {"shape": "rectangle", "center": [7, 0], "width": 3, "height": 4}
+  },
+  "start": [-5, 0],
+  "average_speed": 1.2,
+  "duration": 16,
+  "interval": 0.1,
+  "crossing_threshold": 0.1
+}
