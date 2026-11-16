@@ -41,9 +41,9 @@ uses exact distances; it does not handle sensor noise.
 
 ## Tests
 
-Pytest is only needed for tests:
+With the virtual environment active, install the test dependency and run the tests:
 
 ```bash
-pip install pytest
+pip install -r requirements-dev.txt
 pytest -q
 ```
