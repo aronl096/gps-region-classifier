@@ -8,6 +8,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -e ".[dev]"
+      - run: pip install -r requirements-dev.txt
       - run: pytest -q
       - run: python tracker.py --fast
